@@ -1,0 +1,52 @@
+.how-it-works {
+    background: #F2F1F8;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+div#card {
+    background: none;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-img-top {
+    border-radius: 3rem;
+    
+}
+
+.btn1 {
+    color: #000000;
+    background: #A89BFA!important;
+    border-radius: 0.9rem;
+    font-weight: 700;
+}
+
+#btn1 {
+    float: right;
+}
+
+/* Contact Us */
+.contact-us {
+    background: #FDFDFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+li {
+    font-size: 0.8rem;
+    list-style: none;
+}
+h6 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer {
+    background: #A89BFA;
+    padding: 2rem;
+    text-align: justify;
+}

@@ -1,0 +1,20 @@
+.individual-companies {
+    background: #F2F2F2;
+    padding-top: 3rem;
+}
+
+
+#company {
+background: none;
+border-radius: 20px;
+border: none;
+}
+
+.card-img, .card-img-top{
+    border-radius: 15px!important;
+    padding: 1px;
+    
+    height: 60%;
+    width: 80%;
+
+}

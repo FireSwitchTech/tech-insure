@@ -1,0 +1,12 @@
+nav{
+    background-color: #a99bfa !important;
+}
+.nav-link {
+    color: black !important;
+    float: left !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-link :hover{
+    color:white!important;
+}

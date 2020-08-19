@@ -1,0 +1,127 @@
+.col-md-6 {
+    margin-top: 5rem;
+         
+    }
+    
+    /* Text*/
+    h4 {
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    color: #000000;
+    }
+    
+    h5{
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    }
+    
+    h6 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    margin-left: 0.4rem;
+    
+    }
+    
+    /*Form*/
+    form {
+    margin: 0rem ;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    width: 25rem;
+    background: #A89BFA;
+    border-radius: 29px;
+    
+    }
+    
+    .form-control {
+    background: #FDFDFF;
+    border-radius: 10px;
+    margin: 0.3rem;
+    }
+
+    #form {
+        width: 11.7rem;
+    }
+    
+    /*button*/
+    .button { 
+    margin: 1rem;
+    }
+    
+    .btn:hover {
+    background: #7e6cf7;
+    color: #000000;
+    }
+
+    .btn {
+    width: 10rem;
+    height: 3rem;
+    background: #A89BFA;
+    border-radius: 15px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    }
+
+    a {
+    color: #000000;
+    font-weight: bolder;
+    }
+    
+    @media screen and (max-width: 780px) {
+    h4 {
+    font-size: 30px;
+        }    
+    h5{
+    font-size: 15px;
+        }
+    .col-md-6 {
+     margin-top: 3rem;
+                
+            }
+    form {
+    margin: 0rem ;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    width: 20rem;
+    background: #A89BFA;
+    border-radius: 29px;
+        }
+        #form {
+            width: 9.2rem;
+        }
+      
+    }
+    
+    
+    @media screen and (max-width: 580px) {
+     h4 {
+    font-size: 30px;
+    }
+    
+    h5{
+    font-size: 15px;
+    }
+
+    form {
+    margin: 0rem ;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    }
+    .col-md-6 {
+    margin-top: 3rem;        
+    }
+
+    #form {
+        width: 9.2rem;
+    }
+    }
