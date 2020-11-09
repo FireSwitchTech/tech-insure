@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './services.css'
 import Services1 from './services1.png'
 import Services2 from './services2.png'
@@ -7,7 +8,7 @@ import Services4 from './services4.png'
 
 const services = () => {
     return (
-        <section class="services ">
+        <section class="services">
   <div class="container">
     <h3 class="mb-5 "> Services</h3>
 
@@ -17,34 +18,37 @@ const services = () => {
 
       <div class="row row-cols-1 row-cols-md-3 mt-5
       mt-5" >
-        <div class="col  " >
+        <div class="col" >
+          <Link to="/company"> 
           <div class="card h-100" id="card">
-            <img src={Services1} class="card-img-top " alt="..."/>
+            <img src={Services1} class="card-img-top shadow " alt="..."/>
             <div class="card-body">
               <p class="card-text">Vehicles</p>
              
             </div>
-          </div>
+          </div> </Link>
         </div>
 
         <div class="col  " >
-          <div class="card h-100" id="card">
-            <img src={Services2} class="card-img-top " alt="..."/>
+        <Link to="/company"> 
+          <div class="card h-100 " id="card">
+            <img src={Services2} class="card-img-top shadow " alt="..."/>
             <div class="card-body">
               <p class="card-text">Health</p>
              
             </div>
-          </div>
+          </div> </Link>
         </div>
 
         <div class="col " >
-          <div class="card h-100 " id="card">
-            <img src={Services3} class="card-img-top  " alt="..."/>
+        <Link to="/company"> 
+          <div class="card h-100  " id="card">
+            <img src={Services3} class="card-img-top shadow  " alt="..."/>
             <div class="card-body">
               <p class="card-text">Properties</p>
              
             </div>
-          </div>
+          </div> </Link>
         </div>
         
       </div>
@@ -59,33 +63,36 @@ const services = () => {
       <div class="row row-cols-1 row-cols-md-3 mt-5
       mt-5" >
         <div class="col mb-5 " >
-          <div class="card h-100" id="card">
-            <img src={Services4} class="card-img-top " alt="..."/>
+        <Link to="/company"> 
+          <div class="card h-100 " id="card">
+            <img src={Services4} class="card-img-top shadow " alt="..."/>
             <div class="card-body">
               <p class="card-text">Comprehensive</p>
              
             </div>
-          </div>
+          </div> </Link>
         </div>
 
         <div class="col mb-5 " >
-          <div class="card h-100" id="card">
-            <img src={Services2} class="card-img-top " alt="..."/>
+        <Link to="/company"> 
+          <div class="card h-100 " id="card">
+            <img src={Services2} class="card-img-top shadow " alt="..."/>
             <div class="card-body">
               <p class="card-text">Aviation</p>
              
             </div>
-          </div>
+          </div> </Link>
         </div>
 
         <div class="col mb-5 " >
+        <Link to="/company"> 
           <div class="card h-100 " id="card">
-            <img src={Services3} class="card-img-top  " alt="..."/>
+            <img src={Services3} class="card-img-top shadow  " alt="..."/>
             <div class="card-body">
               <p class="card-text">Third party</p>
              
             </div>
-          </div>
+          </div> </Link>
         </div>
         
       </div>

@@ -10,7 +10,7 @@ div#card {
     text-align: center;
     font-weight: 600;
 }
-
+ 
 .card-img-top {
     border-radius: 3rem;
     
@@ -21,10 +21,13 @@ div#card {
     background: #A89BFA!important;
     border-radius: 0.9rem;
     font-weight: 700;
+  
+
 }
 
 #btn1 {
     float: right;
+
 }
 
 /* Contact Us */

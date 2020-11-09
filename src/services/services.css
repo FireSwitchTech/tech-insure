@@ -14,12 +14,16 @@
         background: #A89BFA!important;
         border-radius: 0.9rem;
         font-weight: 700;
+        margin-top: 2rem;
     }
 
-    div#card {
+    .services #card {
         background: none;
         border: none;
         text-align: center;
         font-weight: 600;
+        border-radius: 10%;
+        
+       
     }
     

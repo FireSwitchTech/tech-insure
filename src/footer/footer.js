@@ -36,20 +36,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="col mb-3 " >
+        <div class="col " >
           <div class="card h-100 " id="card">
             <img src={footer3} class="card-img-top h-70 w-100" alt="..."/>
             <div class="card-body">
               <p class="card-text">3 <br/> Fill the form</p>
              
             </div>
+          <button class="btn btn1 ml-auto">Continue</button>
+      
           </div>
+          
         </div>
         
       </div>
-      <div>
-          <button class="btn btn1" id="btn1">Continue</button>
-      </div>
+     
       
   </div>
 </section>
