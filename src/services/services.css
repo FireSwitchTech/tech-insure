@@ -1,0 +1,29 @@
+.services {
+    background: #FDFDFF; 
+    padding-top: 3rem;
+    }
+    
+    
+    .more{
+        float: right;
+        color: black;
+        font-weight: 700;
+    }
+    .btn1 {
+        color: #000000;
+        background: #A89BFA!important;
+        border-radius: 0.9rem;
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+
+    .services #card {
+        background: none;
+        border: none;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 10%;
+        
+       
+    }
+    

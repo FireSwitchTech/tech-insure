@@ -1,0 +1,36 @@
+.header{
+    background-color: #d0ced6;
+    padding: 50px 50px 50px 50px;
+
+}
+
+#op{
+    position: relative;
+    right:40px;
+}
+#started{
+    background-color: #a99bfa !important;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+#hi {
+text-align: justify;
+font-weight: 500;
+max-width: 25rem;
+
+}
+
+#row {
+    align-items: center;
+    justify-items: center;
+}
+
+@media (max-height:780px) {
+    #row {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
